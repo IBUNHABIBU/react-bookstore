@@ -41,6 +41,8 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
    #### Milestone 1
 
     - Setup the project with NPM use
+    - install redux with npm
+    - install react-redux with npm
     - import proptypes 
     - deploy to heroku 
 
