@@ -42,7 +42,6 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 
     - Setup the project with NPM use
     - import proptypes 
-    - import big.js
     - deploy to heroku 
 
 
@@ -99,7 +98,7 @@ Enjoy playing it.
 <!-- CONTACT -->
 
 
-## link to  [Live Demo ](https://mathics.herokuapp.com/)
+## link to  [Live Demo ](https://salim-tz-bookstore.herokuapp.com/)
 
 ## Authors
 
