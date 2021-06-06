@@ -32,7 +32,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The objective of this project is to build a simple calculator using Reactjs. It is fully fuctional calculator having all basic operation like addition, subtruction, multiplication, division, percentage, +/- and AC.
+Magic-books Inc. is a fictional company based in Germany. They have requested your help to build the front-end of an application that will help them organize and manage their bookstore. They want it to be fast, dynamic and responsive to their actions and therefore you decided to build it with React & Redu
 
 ### Story
 
