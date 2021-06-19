@@ -2,6 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {createStore} from 'redux';
+import booksReducer from './reducers/book';
+
+const store = createStore(booksReducer)
+
+initialState = [{
+  id: 1,
+  Title: "Greg and the black Pirates",
+  Category: "Story"
+}, {
+  id: 1,
+  Title: "Greg and the black Pirates",
+  Category: "Story"
+}]
 
 ReactDOM.render(
   <React.StrictMode>

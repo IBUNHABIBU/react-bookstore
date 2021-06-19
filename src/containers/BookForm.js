@@ -13,6 +13,7 @@ function BookForm() {
         <select name="cat" id="cat">
           {category}
         </select>
+        <button type="submit">Add Book</button>
       </form>
     </div>
   );
