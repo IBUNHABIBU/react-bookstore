@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const book = useSelector((state) => state.book);
-
+  console.log(book);
   return (
     <div className="App">
       <BookList />
