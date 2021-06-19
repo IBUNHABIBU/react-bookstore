@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 function Book(props) {
-    return (
-        <div>
-            <table>
-                <tr>
-                    {props.book}
-                </tr>
-            </table>
-        </div>
-    )
+  return (
+    <div>
+      <table>
+        <tr>
+          {props.book}
+        </tr>
+      </table>
+    </div>
+  );
 }
 
-export default Book
+export default Book;
