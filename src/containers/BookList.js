@@ -21,7 +21,7 @@ function BookList({ books }) {
 }
 
 BookList.propTypes = {
-  books: PropTypes.object.isRequired,
+  books: PropTypes.objectOf.isRequired,
 };
 
 export default BookList;
