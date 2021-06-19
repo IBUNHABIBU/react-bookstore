@@ -1,25 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {createStore} from 'redux';
 import booksReducer from './reducers/book';
+import { Provider } from 'react-redux';
 
-const store = createStore(booksReducer)
-
-initialState = [{
-  id: 1,
-  Title: "Greg and the black Pirates",
-  Category: "Story"
-}, {
-  id: 1,
-  Title: "Greg and the black Pirates",
-  Category: "Story"
-}]
+const store = createStore(booksReducer);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
