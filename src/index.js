@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import booksReducer from './reducers/book';
-import { Provider } from 'react-redux';
 
 const store = createStore(booksReducer);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BookList() {
+function BookList({ id, title, category }) {
   return (
     <div>
       <table>
@@ -13,9 +13,9 @@ function BookList() {
         </thead>
         <tbody>
           <tr>
-            <td>id</td>
-            <td>title</td>
-            <td>Category</td>
+            <td>{id}</td>
+            <td>{title}</td>
+            <td>{category}</td>
           </tr>
         </tbody>
 
@@ -23,5 +23,11 @@ function BookList() {
     </div>
   );
 }
+
+BookList.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  category: PropTypes.string
+};
 
 export default BookList;
