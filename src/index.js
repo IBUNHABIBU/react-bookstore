@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import booksReducer from './reducers/book';
 
 const store = createStore(booksReducer);
+console.log(store.getState());
 
 ReactDOM.render(
   <React.StrictMode>
