@@ -4,9 +4,9 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import booksReducer from './reducers/book';
+import reducer from './reducers/index';
 
-const store = createStore(booksReducer);
+const store = createStore(reducer);
 
 ReactDOM.render(
   <React.StrictMode>
