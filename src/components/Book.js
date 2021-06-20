@@ -4,8 +4,15 @@ import PropTypes from 'prop-types';
 function Book({ book }) {
   const { id, title, category } = book;
   return (
-    <div>
+    <div className="book-container">
       <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Category</th>
+          </tr>
+        </thead>
         <tr>
           <td>{id}</td>
           <td>{title}</td>
@@ -17,7 +24,11 @@ function Book({ book }) {
 }
 
 Book.propTypes = {
-  book: PropTypes.objectOf.isRequired,
+  book: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Book;

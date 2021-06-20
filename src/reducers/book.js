@@ -2,8 +2,8 @@ import { ADD_BOOK, REMOVE_BOOK } from '../actions/constants';
 
 const initialState = [{
   id: 1,
-  Title: 'Greg and the black Pirates',
-  Category: 'Story',
+  title: 'Greg and the black Pirates',
+  category: 'Story',
 }];
 const booksReducer = (state = initialState, { type }) => {
   switch (type) {
