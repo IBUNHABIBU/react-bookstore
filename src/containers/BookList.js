@@ -4,14 +4,22 @@ import Book from '../components/Book';
 
 const BookList = () => {
   const books = useSelector((state) => state);
-  // console.log(books[0]);
   const bookList = books.map((book) => <Book key={book.id} book={book} />);
-  console.log(bookList);
+
   return (
-    <div>
-
-      {bookList}
-
+    <div className="book-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          {bookList}
+        </tbody>
+      </table>
     </div>
   );
 };

@@ -2,9 +2,15 @@ import { ADD_BOOK, REMOVE_BOOK } from '../actions/constants';
 
 const initialState = [{
   id: 1,
-  title: 'Greg and the black Pirates',
+  title: 'Pirates',
   category: 'Story',
-}];
+},
+{
+  id: 2,
+  title: ' princess ',
+  category: 'Fiction',
+},
+];
 const booksReducer = (state = initialState, { type }) => {
   switch (type) {
     case ADD_BOOK:

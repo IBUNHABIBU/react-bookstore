@@ -4,22 +4,11 @@ import PropTypes from 'prop-types';
 function Book({ book }) {
   const { id, title, category } = book;
   return (
-    <div className="book-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Category</th>
-          </tr>
-        </thead>
-        <tr>
-          <td>{id}</td>
-          <td>{title}</td>
-          <td>{category}</td>
-        </tr>
-      </table>
-    </div>
+    <tr>
+      <td>{id}</td>
+      <td>{title}</td>
+      <td>{category}</td>
+    </tr>
   );
 }
 
