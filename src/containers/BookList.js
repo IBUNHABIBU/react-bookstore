@@ -1,12 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import Book from '../components/Book';
 
 const BookList = () => {
-  const books = useSelector((state) => state.books);
-  console.log(books);
+  const books = useSelector((state) => state);
+  // console.log(books[0]);
   const bookList = books.map((book) => <Book book={book} />);
+  console.log(bookList);
   return (
     <div>
       <tr>
@@ -16,10 +16,6 @@ const BookList = () => {
       </tr>
     </div>
   );
-};
-
-BookList.propTypes = {
-  books: PropTypes.objectOf.isRequired,
 };
 
 export default BookList;
