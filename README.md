@@ -38,17 +38,15 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 
 ### Features
 
-   #### Milestone 2
-    -Creating container folder
-         - Creating BookForm component
-         - Creating BookList component
-    - Creating component folder
-         - creating Book component
-    - creating store
-    - creating action and reducers
+#### Milestone 2
+- Creating container folder
+  - Creating BookForm component
+  - Creating BookList component
+- Creating component folder
+  - creating Book component
+  - creating store
+  - creating action and reducers
     
-
-
 <!-- BUILD WITH -->
 ## Built With
 
