@@ -2,13 +2,20 @@ import { ADD_BOOK, REMOVE_BOOK } from '../actions/constants';
 
 const initialState = [{
   id: 1,
-  title: 'Pirates',
+  title: 'Greg and the Black Pirates',
   category: 'Story',
-},
-{
+}, {
   id: 2,
-  title: ' princess ',
+  title: 'The princes who wanted the moon',
   category: 'Fiction',
+}, {
+  id: 3,
+  title: 'Mabala the farmer',
+  category: 'Story',
+}, {
+  id: 4,
+  title: 'Three suiters one husband',
+  category: 'Poem',
 },
 ];
 const booksReducer = (state = initialState, { type }) => {
@@ -16,8 +23,8 @@ const booksReducer = (state = initialState, { type }) => {
     case ADD_BOOK:
       return [...state, {
         id: 2,
-        Title: 'To the street',
-        Category: 'Hastling',
+        title: 'prince',
+        category: 'Movie',
       }];
     case REMOVE_BOOK:
       return { };
