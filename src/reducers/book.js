@@ -7,11 +7,11 @@ const initialState = [{
 }, {
   id: 2,
   title: 'The princes who wanted the moon',
-  category: 'Fiction',
+  category: 'Scifi',
 }, {
   id: 3,
   title: 'Mabala the farmer',
-  category: 'Story',
+  category: 'Learning',
 }, {
   id: 4,
   title: 'Three suiters one husband',
