@@ -18,16 +18,12 @@ const initialState = [{
   category: 'Poem',
 },
 ];
-const booksReducer = (state = initialState, { type }) => {
+const booksReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case ADD_BOOK:
-      return [...state, {
-        id: 2,
-        title: 'prince',
-        category: 'Movie',
-      }];
+      return [...state, payload];
     case REMOVE_BOOK:
-      return { };
+      return state.filter((book) => book.id !== payload.id);
     default:
       return state;
   }
