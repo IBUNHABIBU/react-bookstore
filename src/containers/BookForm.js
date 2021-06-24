@@ -3,12 +3,14 @@ import { useDispatch } from 'react-redux';
 
 function BookForm() {
   const bookCategories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
-  const category = bookCategories.map((item) => <option value="" key={item}>{item}</option>);
+  const category = bookCategories.map((item) => <option value={item} key={item}>{item}</option>);
   const [title, setTitle] = useState('');
   const [cat, setCat] = useState('');
   const dispatch = useDispatch();
-  const handleChange = (e) => {
+  const handleTitleChange = (e) => {
     setTitle(e.target.value);
+  };
+  const handleCategoryChange = (e) => {
     setCat(e.target.value);
   };
   const handleSubmit = (e) => {
