@@ -5,10 +5,16 @@ function BookForm() {
   const bookCategories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const category = bookCategories.map((item) => <option value="" key={item}>{item}</option>);
   const [title, setTitle] = useState('');
+  const [cat, setCat] = useState(initialState);
   const book = useSelector((state) => state);
   const dispatch = useDispatch();
   const handleChange = (e) => {
       setTitle(e.target.value);
+      setCat(e.target.value);
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(handleChange())
   }
   return (
     <div>
