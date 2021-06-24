@@ -8,7 +8,7 @@ function Book({ book }) {
       <td>{id}</td>
       <td>{title}</td>
       <td>{category}</td>
-      <td>Remove Book</td> 
+      <button type="submit">Remove Book</button>
     </tr>
   );
 }
