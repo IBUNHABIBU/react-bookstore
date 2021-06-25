@@ -38,14 +38,12 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 
 ### Features
 
-#### Milestone 2
-- Creating container folder
-  - Creating BookForm component
-  - Creating BookList component
-- Creating component folder
-  - creating Book component
-  - creating store
-  - creating action and reducers
+#### Milestone 3
+- Make BookForm component stateful
+  - Submit the form and read the input values
+  - dispatch AddBook action
+- Creating the remove book button
+  - dispatch the removeBook action to the store
     
 <!-- BUILD WITH -->
 ## Built With
@@ -100,7 +98,7 @@ Enjoy playing it.
 <!-- CONTACT -->
 
 
-## link to  [Live Demo ](https://salim-tz-bookstore.herokuapp.com/)
+## link to  [Live Demo ](https://slm-react-redux-bookstore.herokuapp.com/)
 
 ## Authors
 
