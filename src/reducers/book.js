@@ -3,13 +3,13 @@ import { ADD_BOOK, REMOVE_BOOK } from '../actions/constants';
 const generateId = (limit) => Math.floor(Math.random() * (limit + 1));
 
 const initialState = [];
-const booksReducer = (state = initialState, { type, payload }) => {
-  switch (type) {
+const booksReducer = (state = initialState, action) => {
+  switch (action.type) {
     case ADD_BOOK:
       return [...state,
-        { id: generateId(100), title: payload.title, category: payload.category }];
+        { id: generateId(100), title: action.payload.title, category: action.payload.category }];
     case REMOVE_BOOK:
-      return state.filter((book) => book.id !== payload.id);
+      return state.filter((book) => book.id !== action.id);
     default:
       return state;
   }

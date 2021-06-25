@@ -1,10 +1,21 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
+import { removeBook } from '../actions/index';
 
 const BookList = () => {
   const books = useSelector((state) => state);
-  const bookList = books.map((book) => <Book key={book.id} book={book} />);
+  const dispatch = useDispatch();
+  const removeSelectedBook = (book) => {
+    dispatch(removeBook(book));
+  };
+  const bookList = books.map((book) => (
+    <Book
+      key={book.id}
+      book={book}
+      handleRemoveBook={removeSelectedBook}
+    />
+  ));
   return (
     <div className="book-container">
       <table>
