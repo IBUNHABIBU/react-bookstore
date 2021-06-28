@@ -18,7 +18,7 @@ function BookForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addBook(book));
-    setBook({ title: '', category: '' });
+    setBook({ title: '', category: 'Action' });
   };
   return (
     <div>
