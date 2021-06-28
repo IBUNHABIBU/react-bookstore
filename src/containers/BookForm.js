@@ -8,7 +8,11 @@ function BookForm() {
   const [book, setBook] = useState('');
   const dispatch = useDispatch();
   const handleChange = (e) => {
-    setBook({ ...book, title: e.target.value, category: e.target.value });
+    if (e.target.id === 'cat') {
+      setBook({ ...book, category: e.target.value });
+    } else {
+      setBook({ ...book, title: e.target.value });
+    }
   };
 
   const handleSubmit = (e) => {
