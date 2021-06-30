@@ -1,4 +1,4 @@
-import { ADD_BOOK, REMOVE_BOOK } from '../actions/constants';
+import { ADD_BOOK, REMOVE_BOOK } from '../constants/constants';
 
 const generateId = (limit) => Math.floor(Math.random() * (limit + 1));
 

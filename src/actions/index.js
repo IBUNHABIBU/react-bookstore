@@ -1,4 +1,4 @@
-import { ADD_BOOK, CHANGE_FILTER, REMOVE_BOOK } from './constants';
+import { ADD_BOOK, CHANGE_FILTER, REMOVE_BOOK } from '../constants/constants';
 
 export const addBook = (book) => ({
   type: ADD_BOOK,
@@ -12,5 +12,5 @@ export const removeBook = (book) => ({
 
 export const changeFilter = (filter) => ({
   type: CHANGE_FILTER,
-  payload: filter
+  payload: filter,
 });
