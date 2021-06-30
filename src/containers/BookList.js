@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
 import { removeBook } from '../actions/index';
+import CategoryFilter from '../components/CategoryFilter';
 
 const BookList = () => {
   const books = useSelector((state) => state);
@@ -18,6 +19,7 @@ const BookList = () => {
   ));
   return (
     <div className="book-container">
+      <CategoryFilter />
       <table>
         <thead>
           <tr>

@@ -1,11 +1,12 @@
 import React from 'react';
+import { bookCategories } from '../constants/constants';
 
-const cat = ['All', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
+const cat = bookCategories.concat('All');
 const CategoryFilter = () => (
   <div>
     <label htmlFor="Category">
-      Category
-      <select name="cat" id="cat" value={book.category} onChange={handleCategoryChange}>
+      Filter by Category
+      <select name="cat" id="cat" value={cat}>
         {cat}
       </select>
     </label>

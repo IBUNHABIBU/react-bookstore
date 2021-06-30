@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../actions';
+import { bookCategories } from '../constants/constants';
 
 function BookForm() {
-  const bookCategories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const cat = bookCategories.map((item) => <option value={item} key={item}>{item}</option>);
   const [book, setBook] = useState('');
   const dispatch = useDispatch();
