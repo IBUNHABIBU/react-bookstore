@@ -1,12 +1,13 @@
 import React from 'react';
 import { bookCategories } from '../constants/constants';
 
-const cat = bookCategories.concat('All');
+const categories = bookCategories.concat('All');
+const cat = categories.map((item) => <option value={item} key={item}>{item}</option>);
 const CategoryFilter = () => (
   <div>
     <label htmlFor="Category">
       Filter by Category
-      <select name="cat" id="cat" value={cat}>
+      <select name="category" id="catFilter" value={cat}>
         {cat}
       </select>
     </label>
