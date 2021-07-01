@@ -10,3 +10,5 @@ const filterReducer = (state = initialState, { type, payload }) => {
       return state;
   }
 };
+
+export default filterReducer;

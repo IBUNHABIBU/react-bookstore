@@ -6,14 +6,15 @@ import CategoryFilter from '../components/CategoryFilter';
 
 const BookList = () => {
   const books = useSelector((state) => state);
-  const filter = useSelector(state => state);
+  const filter = useSelector((state) => state);
+  console.log(filter);
   const dispatch = useDispatch();
   const removeSelectedBook = (book) => {
     dispatch(removeBook(book));
   };
   const handleCategoryChange = (e) => {
-    console.log(e.target.value)
-  }
+    dispatch(changeFilter(e.target.value));
+  };
 
   const bookList = books.map((book) => (
     <Book
@@ -24,7 +25,7 @@ const BookList = () => {
   ));
   return (
     <div className="book-container">
-      <CategoryFilter handleFilter={handleCategoryChange}/>
+      <CategoryFilter handleFilter={handleCategoryChange} />
       <table>
         <thead>
           <tr>

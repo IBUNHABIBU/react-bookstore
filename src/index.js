@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import booksReducer from './reducers/book';
 
 const store = createStore(booksReducer);
-
+store.subscribe(() => console.log('subscribed', store.getState()));
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
