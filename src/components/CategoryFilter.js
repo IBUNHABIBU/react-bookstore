@@ -4,11 +4,11 @@ import { bookCategories } from '../constants/constants';
 
 const categories = bookCategories.concat('All');
 const cat = categories.map((item) => <option value={item} key={item}>{item}</option>);
-const CategoryFilter = ({ handleFilterChange }) => (
+const CategoryFilter = ({ handleFilter }) => (
   <div>
     <label htmlFor="Category">
       Filter by Category
-      <select name="category" id="catFilter" value={cat} onChange={handleFilterChange}>
+      <select name="category" id="catFilter" value={cat} onChange={handleFilter}>
         {cat}
       </select>
     </label>
