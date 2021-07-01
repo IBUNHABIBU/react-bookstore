@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import rootReducer from './reducers';
 
 const store = createStore(rootReducer);
-store.subscribe(() => console.log('subscribed', store.getState()));
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
