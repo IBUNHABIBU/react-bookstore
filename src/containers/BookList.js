@@ -5,8 +5,8 @@ import { removeBook, changeFilter } from '../actions/index';
 import CategoryFilter from '../components/CategoryFilter';
 
 const BookList = () => {
-  const books = useSelector((state) => state);
-  const filter = useSelector((state) => state);
+  const books = useSelector((state) => state.booksReducer);
+  const filter = useSelector((state) => state.filterReducer);
   console.log(filter);
   const dispatch = useDispatch();
   const removeSelectedBook = (book) => {

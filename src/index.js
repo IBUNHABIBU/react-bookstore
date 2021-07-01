@@ -4,9 +4,9 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import booksReducer from './reducers/book';
+import rootReducer from './reducers';
 
-const store = createStore(booksReducer);
+const store = createStore(rootReducer);
 store.subscribe(() => console.log('subscribed', store.getState()));
 ReactDOM.render(
   <React.StrictMode>

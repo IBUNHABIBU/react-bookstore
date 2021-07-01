@@ -1,11 +1,11 @@
-import { CHANGE_FILTER } from '../actions/constants';
+import { CHANGE_FILTER } from '../constants/constants';
 
 const initialState = 'All';
 
-const filterReducer = (state = initialState, { type, payload }) => {
-  switch (type) {
+const filterReducer = (state = initialState, action ) => {
+  switch (action.type) {
     case CHANGE_FILTER:
-      return payload.filter;
+      return action.filter;
     default:
       return state;
   }
