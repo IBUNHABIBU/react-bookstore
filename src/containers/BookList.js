@@ -6,6 +6,7 @@ import CategoryFilter from '../components/CategoryFilter';
 
 const BookList = () => {
   const books = useSelector((state) => state);
+  const filter = useSelector(state => state)
   const dispatch = useDispatch();
   const removeSelectedBook = (book) => {
     dispatch(removeBook(book));
