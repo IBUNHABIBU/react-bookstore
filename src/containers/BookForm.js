@@ -9,9 +9,12 @@ function BookForm() {
   const dispatch = useDispatch();
   const handleChange = (e) => {
     if (e.target.id === 'cat') {
+      console.log('cat');
       setBook({ ...book, category: e.target.value });
+    } else if (e.target.id === 'title') {
+      setBook({ ...book, title: e.target.value, category: 'Action' });
     } else {
-      setBook({ ...book, title: e.target.value });
+      setBook({ ...book, category: 'Action' });
     }
   };
 
@@ -25,7 +28,7 @@ function BookForm() {
       <form action="add-book" onSubmit={handleSubmit}>
         <label htmlFor="Title">
           Title
-          <input type="text" value={book.title} onChange={handleChange} />
+          <input type="text" value={book.title} onChange={handleChange} id="title" />
         </label>
         <br />
         <label htmlFor="Category">
