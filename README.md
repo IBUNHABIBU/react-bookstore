@@ -38,12 +38,12 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 
 ### Features
 
-#### Milestone 3
-- Make BookForm component stateful
-  - Submit the form and read the input values
-  - dispatch AddBook action
-- Creating the remove book button
-  - dispatch the removeBook action to the store
+#### Milestone 4
+- Implement Filter
+  - Add filter state to the redux store
+  - Add Fiter action
+- Creating the Filter component
+  - Add filter component to the BookList component
     
 <!-- BUILD WITH -->
 ## Built With
