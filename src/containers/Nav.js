@@ -5,18 +5,19 @@ import {
 import myStyle from '../stylesheet/style';
 
 const Nav = () => {
-
   const classes = myStyle();
 
-  return (<AppBar position="static">
-    <Toolbar>
+  return (
+    <AppBar position="static" color="transparent">
+      <Toolbar>
 
-      <Typography variant="h6" className={classes.title}>
-        News
-      </Typography>
-      <Button color="inherit">Login</Button>
-    </Toolbar>
-  </AppBar>
-)};
+        <Typography variant="h2" className={classes.title} color="secondary">
+          BookStore CMS
+        </Typography>
+        <Button color="inherit">Login</Button>
+      </Toolbar>
+    </AppBar>
+  );
+};
 
 export default Nav;
