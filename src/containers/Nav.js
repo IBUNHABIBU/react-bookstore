@@ -1,18 +1,19 @@
-import React from 'react'
-import { AppBar, Toolbar, Typography, Button } from '@material-ui/core'
-const Nav = () => {
-    return (
+import React from 'react';
+import {
+  AppBar, Toolbar, Typography, Button,
+} from '@material-ui/core';
 
-            <AppBar position="static">
-  <Toolbar>
+const Nav = () => (
 
-    <Typography variant="h6" className={classes.title}>
-      News
-    </Typography>
-    <Button color="inherit">Login</Button>
-  </Toolbar>
-</AppBar>
-    )
-}
+  <AppBar position="static">
+    <Toolbar>
 
-export default Nav
+      <Typography variant="h6" className={classes.title}>
+        News
+      </Typography>
+      <Button color="inherit">Login</Button>
+    </Toolbar>
+  </AppBar>
+);
+
+export default Nav;
