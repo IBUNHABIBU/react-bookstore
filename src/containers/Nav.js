@@ -11,7 +11,7 @@ const Nav = () => {
     <AppBar position="static" color="transparent">
       <Toolbar>
 
-        <Typography variant="h2" className={classes.title} color="secondary">
+        <Typography variant="h2" className={classes.title} color="primary">
           BookStore CMS
         </Typography>
         <Button color="inherit">Login</Button>
