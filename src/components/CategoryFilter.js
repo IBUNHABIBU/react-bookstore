@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
-import FormHelperText from '@material-ui/core/FormHelperText';
+import InputLabel from '@material-ui/core/InputLabel';
+// import FormHelperText from '@material-ui/core/FormHelperText';
 import { bookCategories } from '../constants/constants';
 import myStyle from '../stylesheet/style';
 
@@ -15,20 +16,16 @@ const CategoryFilter = ({ handleFilter }) => {
   return (
     <div>
       <label htmlFor="Category">
-        <FormControl className={classes.formControl}>
+        <FormControl variant="outlined" className={classes.formControl}>
+          <InputLabel id="demo-simple-select-outlined-label">Filter</InputLabel>
           <Select
-            value="filter"
+            labelId="demo-simple-select-outlined-label"
+            id="demo-simple-select-outlined"
             onChange={handleFilter}
-            displayEmpty
-            className={classes.selectEmpty}
-            inputProps={{ 'aria-label': 'Without label' }}
+            label="Age"
           >
-            <MenuItem value="">
-              Placeholder
-            </MenuItem>
             {cat}
           </Select>
-          <FormHelperText>placeholder</FormHelperText>
         </FormControl>
       </label>
     </div>
