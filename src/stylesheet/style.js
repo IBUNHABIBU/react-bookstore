@@ -2,7 +2,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const myStyle = makeStyles(() => ({
   title: {
-    padding: '10px',
     color: '#0290ff',
     fontFamily: 'Montserrat',
     fontSize: '1.875rem',
@@ -11,6 +10,7 @@ const myStyle = makeStyles(() => ({
     fontStyle: 'normal',
     lineHeight: 'normal',
     letterSpacing: 'normal',
+    paddingLeft: '6.25rem',
   },
 }));
 
