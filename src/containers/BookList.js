@@ -7,7 +7,6 @@ import CategoryFilter from '../components/CategoryFilter';
 const BookList = () => {
   const books = useSelector((state) => state.booksReducer);
   const filter = useSelector((state) => state.filterReducer);
-
   const selectedBooks = (filter === 'All') ? books : books.filter((book) => book.category === filter);
 
   const dispatch = useDispatch();

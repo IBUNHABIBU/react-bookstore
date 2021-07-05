@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
 import { bookCategories } from '../constants/constants';
 import myStyle from '../stylesheet/style';
 
@@ -16,12 +17,18 @@ const CategoryFilter = ({ handleFilter }) => {
       <label htmlFor="Category">
         <FormControl className={classes.formControl}>
           <Select
-            labelId="demo-simple-select-disabled-label"
-            id="demo-simple-select-disabled"
+            value="filter"
             onChange={handleFilter}
+            displayEmpty
+            className={classes.selectEmpty}
+            inputProps={{ 'aria-label': 'Without label' }}
           >
+            <MenuItem value="">
+              Placeholder
+            </MenuItem>
             {cat}
           </Select>
+          <FormHelperText>placeholder</FormHelperText>
         </FormControl>
       </label>
     </div>
