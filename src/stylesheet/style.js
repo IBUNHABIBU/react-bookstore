@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-const myStyle = makeStyles(() => ({
+const myStyle = makeStyles((theme) => ({
   title: {
     color: '#0290ff',
     fontFamily: 'Montserrat',
@@ -11,6 +11,13 @@ const myStyle = makeStyles(() => ({
     lineHeight: 'normal',
     letterSpacing: 'normal',
     paddingLeft: '6.25rem',
+  },
+  formControl: {
+    margin: theme.spacing(1),
+    minWidth: 120,
+  },
+  selectEmpty: {
+    marginTop: theme.spacing(2),
   },
 }));
 
