@@ -14,10 +14,6 @@ const CategoryFilter = ({ handleFilter }) => {
   return (
     <div>
       <label htmlFor="Category">
-        {/* Filter by Category
-        <select name="category" id="category" onChange={handleFilter}>
-          {cat}
-        </select> */}
         <FormControl className={classes.formControl}>
           <Select
             labelId="demo-simple-select-disabled-label"
