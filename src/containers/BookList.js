@@ -22,11 +22,7 @@ const BookList = () => {
   ));
   return (
     <div className="book-container">
-      <table>
-        <tbody>
-          {bookList}
-        </tbody>
-      </table>
+      {bookList}
     </div>
   );
 };

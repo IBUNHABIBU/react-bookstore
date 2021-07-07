@@ -2,14 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Book({ book, handleRemoveBook }) {
-  const { id, title, category } = book;
+  const { title, category } = book;
   return (
-    <tr>
-      <td>{id}</td>
-      <td>{title}</td>
-      <td>{category}</td>
+    <div>
+      <h2>{title}</h2>
+      <p>{category}</p>
       <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
-    </tr>
+    </div>
   );
 }
 
