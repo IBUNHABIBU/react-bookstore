@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
 
 function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>{category}</p>
-      <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
+    <div className={classes.root}>
+      <Grid container spacing={3}>
+        <Grid item lg={12}>
+          <p>{category}</p>
+          <h2>{title}</h2>
+          <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
+        </Grid>
+      </Grid>
     </div>
   );
 }
