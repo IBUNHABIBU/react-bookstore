@@ -17,7 +17,7 @@ const CategoryFilter = ({ handleFilter }) => {
     <div>
       <label htmlFor="Category">
         <FormControl variant="outlined" className={classes.formControl}>
-          <InputLabel id="demo-simple-select-outlined-label">Filter</InputLabel>
+          <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
           <Select
             labelId="demo-simple-select-outlined-label"
             id="demo-simple-select-outlined"

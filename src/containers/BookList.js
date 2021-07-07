@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
-import { removeBook, changeFilter } from '../actions/index';
+import { removeBook } from '../actions/index';
 
 const BookList = () => {
   const books = useSelector((state) => state.booksReducer);

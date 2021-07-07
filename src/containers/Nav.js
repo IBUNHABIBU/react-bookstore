@@ -18,11 +18,11 @@ const Nav = () => {
     <AppBar position="static" color="transparent">
       <Toolbar>
 
-        <Typography variant="h2" className={classes.title} color="primary">
+        <Typography variant="h2" className={classes.logo} color="primary">
           BookStore CMS
         </Typography>
-        <Typography variant="subtitle1" className={classes.title} color="primary">
-          BookStore CMS
+        <Typography variant="h3" className={classes.title} color="primary">
+          BOOKS
         </Typography>
         <CategoryFilter handleFilter={handleCategoryChange} />
       </Toolbar>
