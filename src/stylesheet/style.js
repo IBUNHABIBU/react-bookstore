@@ -31,6 +31,9 @@ const myStyle = makeStyles((theme) => ({
     border: 'none',
     outline: 'none',
   },
+  root: {
+    flexGrow: 1,
+  }
 }));
 
 export default myStyle;
