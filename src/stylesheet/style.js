@@ -17,12 +17,19 @@ const myStyle = makeStyles((theme) => ({
     fontSize: '0.813rem',
     paddingLeft: '6.25rem',
   },
+  cat: {
+    paddingLeft: '3.25rem',
+  },
   formControl: {
     margin: theme.spacing(1),
     minWidth: 120,
   },
   selectEmpty: {
     marginTop: theme.spacing(2),
+  },
+  label: {
+    border: 'none',
+    outline: 'none',
   },
 }));
 

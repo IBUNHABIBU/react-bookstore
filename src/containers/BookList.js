@@ -23,13 +23,6 @@ const BookList = () => {
   return (
     <div className="book-container">
       <table>
-        <thead>
-          <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Category</th>
-          </tr>
-        </thead>
         <tbody>
           {bookList}
         </tbody>

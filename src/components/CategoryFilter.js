@@ -14,8 +14,8 @@ const CategoryFilter = ({ handleFilter }) => {
   const categories = all.concat(bookCategories);
   const cat = categories.map((item) => <MenuItem value={item} key={item}>{item}</MenuItem>);
   return (
-    <div>
-      <label htmlFor="Category">
+    <div className={classes.cat}>
+      <label htmlFor="Category" className={classes.label}>
         <FormControl variant="outlined" className={classes.formControl}>
           <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
           <Select
