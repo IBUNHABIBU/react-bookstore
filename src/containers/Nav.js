@@ -3,6 +3,9 @@ import { useDispatch } from 'react-redux';
 import {
   AppBar, Toolbar, Typography,
 } from '@material-ui/core';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+// import AccountCircle from '@material-ui/icons/AccountCircle';
+// import AccountCircle from '@material-ui/icons/AccountCircle';
 import myStyle from '../stylesheet/style';
 import CategoryFilter from '../components/CategoryFilter';
 import { changeFilter } from '../actions/index';
@@ -25,6 +28,8 @@ const Nav = () => {
           BOOKS
         </Typography>
         <CategoryFilter handleFilter={handleCategoryChange} />
+        <AccountCircleIcon color={}/>
+        {/* <AccountCircle /> */}
       </Toolbar>
     </AppBar>
   );
