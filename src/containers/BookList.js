@@ -21,6 +21,7 @@ const BookList = () => {
       handleRemoveBook={removeSelectedBook}
     />
   ));
+
   return (
     <div className="book-container">
       <Grid container spacing={3}>
