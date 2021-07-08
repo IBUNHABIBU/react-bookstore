@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import Grid from '@material-ui/core/Grid';
 import Book from '../components/Book';
 import { removeBook } from '../actions/index';
 
@@ -24,10 +25,9 @@ const BookList = () => {
     <div className="book-container">
       <Grid container spacing={3}>
         <Grid item xs={12}>
-        {bookList}
+          {bookList}
         </Grid>
       </Grid>
-      
     </div>
   );
 };
