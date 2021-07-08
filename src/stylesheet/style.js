@@ -33,7 +33,7 @@ const myStyle = makeStyles((theme) => ({
   },
   root: {
     flexGrow: 1,
-  }
+  },
 }));
 
 export default myStyle;
