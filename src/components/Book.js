@@ -28,34 +28,56 @@ function Book({ book, handleRemoveBook }) {
         <Grid item lg={12}>
           <Paper className={classes.paper}>
             <div>
-                <p className="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab quas quisquam asperiores nisi quia maiores a praesentium facere iure accusantium omnis maxime
-                 provident, repudiandae nesciunt sunt accusamus ad iusto.</p>
+              <p className="lorem">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione ab quas quisquam asperiores nisi quia maiores a praesentium
+                facere iure accusantium omnis maxime
+                provident, repudiandae nesciunt sunt accusamus ad iusto.
+              </p>
             </div>
           </Paper>
         </Grid>
         <Grid item lg={12}>
           <Paper className={classes.paper}>
             <div>
-                <p className="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab quas quisquam asperiores nisi quia maiores a praesentium facere iure accusantium omnis maxime
-                 provident, repudiandae nesciunt sunt accusamus ad iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, modi repellat magnam earum commodi hic ratione assumenda quidem, quas cupiditate consequuntur dolorum saepe 
-                 architecto facilis quisquam asperiores iure laudantium totam.</p>
+              <p className="lorem">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione ab quas quisquam asperiores nisi quia maiores a
+                praesentium facere iure accusantium omnis maxime
+                provident, repudiandae nesciunt sunt accusamus ad iusto.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt, modi repellat magnam earum commodi hic ratione
+                assumenda quidem, quas cupiditate consequuntur dolorum saepe
+                architecto facilis quisquam asperiores iure laudantium totam.
+              </p>
             </div>
           </Paper>
         </Grid>
         <Grid item lg={12}>
           <Paper className={classes.paper}>
             <div>
-                <p className="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab quas quisquam asperiores nisi quia maiores a praesentium facere iure accusantium omnis maxime
-                 provident, repudiandae nesciunt sunt accusamus ad iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias numquam tempora, esse quia adipisci assumenda sed quam vero aut aliquam maiores totam odit
-                  consequuntur enim, consectetur saepe! Sequi, facilis.</p>
+              <p className="lorem">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione ab quas quisquam asperiores nisi quia maiores a
+                praesentium facere iure accusantium omnis maxime
+                provident, repudiandae nesciunt sunt accusamus ad iusto.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere molestias numquam tempora, esse quia adipisci
+                assumenda sed quam vero aut aliquam maiores totam odit
+                consequuntur enim, consectetur saepe! Sequi, facilis.
+              </p>
             </div>
           </Paper>
         </Grid>
         <Grid item lg={12}>
           <Paper className={classes.paper}>
             <div>
-                <p className="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab quas quisquam asperiores nisi quia maiores a praesentium facere iure accusantium omnis maxime
-                 provident, repudiandae nesciunt sunt accusamus ad iusto.</p>
+              <p className="lorem">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione ab quas quisquam asperiores nisi quia maiores a
+                praesentium facere iure accusantium omnis maxime
+                provident, repudiandae nesciunt sunt accusamus ad iusto.
+              </p>
             </div>
           </Paper>
         </Grid>
