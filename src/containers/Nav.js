@@ -28,7 +28,7 @@ const Nav = () => {
           BOOKS
         </Typography>
         <CategoryFilter handleFilter={handleCategoryChange} />
-        <AccountCircleIcon color={}/>
+        <AccountCircleIcon color="secondary" />
         {/* <AccountCircle /> */}
       </Toolbar>
     </AppBar>
