@@ -19,21 +19,31 @@ const Nav = () => {
 
   return (
     <div>
-    <AppBar position="static" color="transparent">
-      <Toolbar>
+      <AppBar position="static" color="transparent">
+        <Toolbar>
 
-        <Typography variant="h2" className={classes.logo} color="primary">
-          BookStore CMS
-        </Typography>
-        <Typography variant="h3" className={classes.title} color="primary">
-          BOOKS
-        </Typography>
-        <CategoryFilter handleFilter={handleCategoryChange} />
-        <AccountCircleIcon style={{ color: '#0290ff' }} />
-        {/* <AccountCircle /> */}
-      </Toolbar>
-    </AppBar>
-    
+          <Typography variant="h2" className={classes.logo} color="primary">
+            BookStore CMS
+          </Typography>
+          <Typography variant="h3" className={classes.title} color="primary">
+            BOOKS
+          </Typography>
+          <CategoryFilter handleFilter={handleCategoryChange} />
+          <AccountCircleIcon style={{ color: '#0290ff' }} />
+          {/* <AccountCircle /> */}
+        </Toolbar>
+      </AppBar>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" className={classes.title}>
+            News
+          </Typography>
+          <Button color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
     </div>
   );
 };
