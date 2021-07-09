@@ -10,16 +10,16 @@ const myStyle = makeStyles((theme) => ({
     fontStyle: 'normal',
     lineHeight: 'normal',
     letterSpacing: 'normal',
-    paddingLeft: '6.25rem',
+    // paddingLeft: '6.25rem',
   },
   title: {
     color: '#121212',
     fontSize: '0.813rem',
-    paddingLeft: '6.25rem',
+    // paddingLeft: '6.25rem',
     flexGrow: 1,
   },
   cat: {
-    paddingLeft: '3.25rem',
+    // paddingLeft: '3.25rem',
   },
   formControl: {
     margin: theme.spacing(1),
@@ -36,7 +36,7 @@ const myStyle = makeStyles((theme) => ({
     flexGrow: 1,
   },
   menuButton: {
-    // marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2),
   },
 }));
 

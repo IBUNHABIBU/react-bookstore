@@ -6,9 +6,6 @@ import {
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 // import AccountCircle from '@material-ui/icons/AccountCircle';
 // import AccountCircle from '@material-ui/icons/AccountCircle';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import myStyle from '../stylesheet/style';
 import CategoryFilter from '../components/CategoryFilter';
 import { changeFilter } from '../actions/index';
@@ -21,10 +18,10 @@ const Nav = () => {
   };
 
   return (
-    <div>
+    <div className={classes.root}>
       <AppBar position="static" color="transparent">
         <Toolbar>
-
+          {/* <div> */}
           <Typography variant="h2" className={classes.logo} color="primary">
             BookStore CMS
           </Typography>
@@ -32,19 +29,9 @@ const Nav = () => {
             BOOKS
           </Typography>
           <CategoryFilter handleFilter={handleCategoryChange} />
+          {/* </div> */}
           <AccountCircleIcon style={{ color: '#0290ff' }} />
           {/* <AccountCircle /> */}
-        </Toolbar>
-      </AppBar>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </div>
