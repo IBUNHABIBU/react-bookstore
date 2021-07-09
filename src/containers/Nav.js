@@ -22,15 +22,15 @@ const Nav = () => {
       <AppBar position="static" color="transparent">
         <Toolbar>
           {/* <div> */}
-          <Typography variant="h2" className={classes.logo} color="primary">
+          <Typography variant="h2" className={classes.logo}>
             BookStore CMS
           </Typography>
-          <Typography variant="h3" className={classes.title} color="primary">
+          <Typography edge="start" variant="h3" className={classes.title}>
             BOOKS
           </Typography>
-          <CategoryFilter handleFilter={handleCategoryChange} />
+          <CategoryFilter handleFilter={handleCategoryChange} className={classes.cat} />
           {/* </div> */}
-          <AccountCircleIcon style={{ color: '#0290ff' }} />
+          <AccountCircleIcon fontSize="large" className={classes.account} />
           {/* <AccountCircle /> */}
         </Toolbar>
       </AppBar>
