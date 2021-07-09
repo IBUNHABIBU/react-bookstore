@@ -18,6 +18,7 @@ const Nav = () => {
   };
 
   return (
+    <div>
     <AppBar position="static" color="transparent">
       <Toolbar>
 
@@ -28,10 +29,12 @@ const Nav = () => {
           BOOKS
         </Typography>
         <CategoryFilter handleFilter={handleCategoryChange} />
-        <AccountCircleIcon color="secondary" />
+        <AccountCircleIcon style={{ color: '#0290ff' }} />
         {/* <AccountCircle /> */}
       </Toolbar>
     </AppBar>
+    
+    </div>
   );
 };
 
