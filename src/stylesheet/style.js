@@ -16,6 +16,7 @@ const myStyle = makeStyles((theme) => ({
     color: '#121212',
     fontSize: '0.813rem',
     paddingLeft: '6.25rem',
+    flexGrow: 1,
   },
   cat: {
     paddingLeft: '3.25rem',
@@ -33,6 +34,9 @@ const myStyle = makeStyles((theme) => ({
   },
   root: {
     flexGrow: 1,
+  },
+  menuButton: {
+    // marginRight: theme.spacing(2),
   },
 }));
 
