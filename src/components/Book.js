@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
   return (
-    <div>
+    <div className="book-container">
       <p>{category}</p>
       <h2>{title}</h2>
       <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>

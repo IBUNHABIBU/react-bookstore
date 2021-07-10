@@ -23,7 +23,7 @@ const BookList = () => {
   ));
 
   return (
-    <div className="book-container">
+    <div>
       <Grid container spacing={3}>
         <Grid item xs={12}>
           {bookList}
