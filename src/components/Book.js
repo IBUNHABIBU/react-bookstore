@@ -11,7 +11,11 @@ function Book({ book, handleRemoveBook }) {
         <h2>{title}</h2>
         <div className="btns">
         <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
-
+        <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
         </div>
              </div>
       <div className="status-bar">
