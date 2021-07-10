@@ -36,6 +36,9 @@ const myStyle = makeStyles((theme) => ({
     width: '2.063rem',
     height: '2.063rem',
   },
+  root: {
+    backgroundColor: '#ffffff',
+  },
 }));
 
 export default myStyle;
