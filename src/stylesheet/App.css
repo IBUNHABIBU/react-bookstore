@@ -34,3 +34,28 @@ body {
 .MuiButtonGroup-root .MuiButton-startIcon {
   color: red !important;
 }
+
+.complete-bar {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  background-color: #379cf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-bar {
+  display: flex;
+}
+
+.inner-bar {
+  width: 3.55rem;
+  height: 3.55rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.complete-percent p {
+ font-size: 2rem;
+}

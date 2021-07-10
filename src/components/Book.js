@@ -19,8 +19,13 @@ function Book({ book, handleRemoveBook }) {
         </div>
       </div>
       <div className="status-bar">
-        <p>64%</p>
-        <p>Completed</p>
+        <div className="complete-bar">
+          <div className="inner-bar" />
+        </div>
+        <div className="complete-parcent">
+          <p>64%</p>
+          <p>Completed</p>
+        </div>
       </div>
       <div className="chapter">
         <p>current chapter</p>
