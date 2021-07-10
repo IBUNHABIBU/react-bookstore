@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
+import Button from '@material-ui/core/Button';
 
 function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
@@ -10,14 +11,13 @@ function Book({ book, handleRemoveBook }) {
         <p>{category}</p>
         <h2>{title}</h2>
         <div className="btns">
-        <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
-        <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup>
+          <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
+            <Button>Comment</Button>
+            <Button onClick={() => handleRemoveBook(book)}>Remove</Button>
+            <Button>Edit</Button>
+          </ButtonGroup>
         </div>
-             </div>
+      </div>
       <div className="status-bar">
         <p>64%</p>
         <p>Completed</p>

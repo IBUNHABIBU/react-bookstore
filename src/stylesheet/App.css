@@ -24,4 +24,13 @@ body {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+.MuiButtonGroup-root .MuiButton-text{
+  text-transform: capitalize;
+  color: #4386bf;
+}
+.MuiButtonGroup-root .MuiButton-startIcon {
+  color: red !important;
 }
