@@ -31,7 +31,7 @@ function Book({ book, handleRemoveBook }) {
       <div className="chapter">
         <p className="current">current chapter</p>
         <p className="c-number">Chapter 17</p>
-        <button type="submit">Update progress</button>
+        <Button variant="contained" color="primary">Update progress</Button>
       </div>
     </div>
   );

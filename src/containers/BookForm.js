@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import Select from '@material-ui/core/Select';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
 import { addBook } from '../actions';
 import { bookCategories } from '../constants/constants';
+import myStyle from '../stylesheet/style';
 
 function BookForm() {
+  const classes = myStyle();
   const cat = bookCategories.map((item) => <option value={item} key={item}>{item}</option>);
   const [book, setBook] = useState('');
   const dispatch = useDispatch();
@@ -25,16 +30,23 @@ function BookForm() {
   return (
     <div>
       <form action="add-book" onSubmit={handleSubmit}>
-        <label htmlFor="Title">
-          Title
-          <input type="text" value={book.title} onChange={handleChange} id="title" />
-        </label>
+        <p>Add New book</p>
+        <input type="text" value={book.title} onChange={handleChange} id="title" />
         <br />
-        <label htmlFor="Category">
-          Category
-          <select name="cat" id="cat" value={book.category} onChange={handleChange}>
-            {cat}
-          </select>
+
+        <label htmlFor="Category" className={classes.label}>
+          <FormControl variant="outlined" className={classes.formControl}>
+            <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
+            <Select
+              labelId="demo-simple-select-outlined-label"
+              id="demo-simple-select-outlined"
+              label="Age"
+              value={book.category}
+              onChange={handleChange}
+            >
+              {cat}
+            </Select>
+          </FormControl>
         </label>
         <br />
         <button type="submit">Add Book</button>

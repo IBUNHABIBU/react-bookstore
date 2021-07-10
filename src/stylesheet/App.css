@@ -2,6 +2,7 @@
   --primary-color: rgb(128, 128, 128);
   --primay-height: 100px;
   --primary-width: 700px;
+  --black-two:  #121212;
 }
 
 
@@ -80,5 +81,9 @@ body {
 }
 
 .c-number {
-  color: ;
+  color: var(--black-two);
+}
+
+.current {
+  text-transform: uppercase;
 }
