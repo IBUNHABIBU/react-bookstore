@@ -22,14 +22,15 @@ function Book({ book, handleRemoveBook }) {
         <div className="complete-bar">
           <div className="inner-bar" />
         </div>
+        <div className="content" />
         <div className="complete-parcent">
-          <p>64%</p>
-          <p>Completed</p>
+          <p className="percentage">64%</p>
+          <p className="completed">Completed</p>
         </div>
       </div>
       <div className="chapter">
-        <p>current chapter</p>
-        <p>Chapter 17</p>
+        <p className="current">current chapter</p>
+        <p className="c-number">Chapter 17</p>
         <button type="submit">Update progress</button>
       </div>
     </div>

@@ -1,3 +1,10 @@
+:root {
+  --primary-color: rgb(128, 128, 128);
+  --primay-height: 100px;
+  --primary-width: 700px;
+}
+
+
 body {
   background-color: #f5f6fa;
 }
@@ -56,6 +63,22 @@ body {
   background-color: white;
 }
 
-.complete-percent p {
+.percentage {
  font-size: 2rem;
+ color: #121212;
+}
+
+.completed {
+  color: #121212;
+}
+
+.content {
+  width: 2rem;
+  height: 3rem;
+  background-color:white;
+  position: absolute;
+}
+
+.c-number {
+  color: ;
 }
