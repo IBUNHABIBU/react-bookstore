@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
 
 function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
@@ -8,8 +9,11 @@ function Book({ book, handleRemoveBook }) {
       <div>
         <p>{category}</p>
         <h2>{title}</h2>
+        <div className="btns">
         <button type="submit" onClick={() => handleRemoveBook(book)}>Remove Book</button>
-      </div>
+
+        </div>
+             </div>
       <div className="status-bar">
         <p>64%</p>
         <p>Completed</p>
