@@ -1,17 +1,9 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import Select from '@material-ui/core/Select';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import { Button, TextField, MenuItem } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
-import InputBase from '@material-ui/core/InputBase';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
-import DirectionsIcon from '@material-ui/icons/Directions';
 import myStyle from '../stylesheet/style';
 import { bookCategories } from '../constants/constants';
 import { addBook } from '../actions';
@@ -44,7 +36,6 @@ function BookForm() {
       <form action="add-book" onSubmit={handleSubmit}>
         <div className="form-container">
           <TextField
-            // id="outlined-full-width"
             className={classes.textInput}
             style={{ margin: 8 }}
             placeholder="Book Title"
