@@ -5,6 +5,8 @@
   --black-two:  #121212;
   --warm-grey: #888888;
   --pale-grey: #e8e8e8;
+  --azure: #0290ff;
+  --white: #ffff; 
 }
 
 
@@ -64,12 +66,32 @@ body {
 }
 
 .percentage {
- font-size: 2rem;
- color: #121212;
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
 }
 
 .completed {
-  color: #121212;
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
 }
 
 .content {
@@ -164,4 +186,8 @@ body {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0.25rem 0 0;
+}
+
+.book-container .chapter .progress-btn {
+  background-color: var(--azure);
 }
