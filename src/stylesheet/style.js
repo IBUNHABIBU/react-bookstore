@@ -29,6 +29,9 @@ const myStyle = makeStyles((theme) => ({
   selectEmpty: {
     // marginTop: theme.spacing(2),
   },
+  textInput: {
+    width: '70%',
+  },
   account: {
     flexGrow: 1,
     paddingLeft: '28.25rem',
