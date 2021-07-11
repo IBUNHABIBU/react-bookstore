@@ -15,7 +15,7 @@ function BookForm() {
   const dispatch = useDispatch();
   const handleChange = (e) => {
     console.log('handle', e.target.id);
-    if (e.target.id === 'cat') {
+    if (e.target.name === 'cat') {
       console.log(e.target.value);
       setBook({ ...book, category: e.target.value });
     } else if (e.target.id === 'title') {
