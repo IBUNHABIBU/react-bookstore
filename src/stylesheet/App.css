@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
 :root {
   --primary-color: rgb(128, 128, 128);
   --primay-height: 100px;
@@ -65,7 +68,7 @@ body {
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -80,7 +83,7 @@ body {
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -101,7 +104,7 @@ body {
   width: 4.688rem;
   height: 1.313rem;
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
-  font-family: RobotoSlab, Arial, Helvetica, sans-serif;;
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -116,7 +119,7 @@ body {
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab, Arial, Helvetica, sans-serif;;
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -137,7 +140,7 @@ body {
 .form-title {
   width: 10.875rem;
   height: 1.5rem;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -162,7 +165,7 @@ body {
   height: 1.125rem;
   margin: 0 1.188rem 0 0;
   opacity: 0.5;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -176,7 +179,7 @@ body {
   width: 22.813rem;
   height: 1.813rem;
   margin: 0.188rem 9.688rem 0 0.7rem;
-  font-family: RobotoSlab, Arial, Helvetica, sans-serif;;
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -191,7 +194,7 @@ body {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0.25rem 0 0;
-  font-family: RobotoSlab, Arial, Helvetica, sans-serif;;
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
