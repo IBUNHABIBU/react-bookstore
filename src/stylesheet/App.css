@@ -101,11 +101,33 @@ body {
   position: absolute;
 }
 
-.c-number {
+.chapter-number {
+  width: 4.688rem;
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+  font-family: RobotoSlab;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
   color: var(--black-two);
 }
 
 .current {
+  width: 7.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-family: RobotoSlab;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
   text-transform: uppercase;
 }
 
@@ -135,6 +157,7 @@ body {
   height: 10.625rem;
   background-color: var(--white);
   margin-top: 3rem;
+  margin-left: 6rem;
   border-top: 2px solid var(--pale-grey);
 }
 

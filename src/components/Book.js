@@ -33,7 +33,7 @@ function Book({ book, handleRemoveBook }) {
       <Divider orientation="vertical" />
       <div className="chapter">
         <p className="current">current chapter</p>
-        <p className="c-number">Chapter 17</p>
+        <p className="chapter-number">Chapter 17</p>
         <Button variant="contained" color="primary" className="progress-btn">Update progress</Button>
       </div>
     </div>
