@@ -19,7 +19,7 @@
   </p>
 </p>
 
-![screenshot](https://github.com/IBUNHABIBU/react-bookstore/blob/milestone5-styling/public/books.PNG)
+![screenshot](https://github.com/IBUNHABIBU/react-bookstore/blob/milestone5-styling/public/homepage.PNG)
 ![screenshot](https://github.com/IBUNHABIBU/react-bookstore/blob/milestone5-styling/public/books.PNG)
 ## Table of Contents
 
