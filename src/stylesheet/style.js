@@ -42,6 +42,10 @@ const myStyle = makeStyles((theme) => ({
   root: {
     backgroundColor: '#ffffff',
   },
+  bookBtn: {
+    width: '100%',
+    height: '80%',
+  },
 }));
 
 export default myStyle;
