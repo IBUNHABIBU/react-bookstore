@@ -9,10 +9,10 @@
   --white: #ffff; 
 }
 
-
 body {
   background-color: #f5f6fa;
 }
+
 .App {
   text-align: center;
 }
@@ -24,7 +24,7 @@ body {
   margin: 1rem;
 }
 
-#demo-simple-select-outlined-label{
+#demo-simple-select-outlined-label {
   font-size: 0.8rem;
 }
 
@@ -39,7 +39,8 @@ body {
   padding-left: 1rem;
   padding-right: 3rem;
 }
-.MuiButtonGroup-root .MuiButton-text{
+
+.MuiButtonGroup-root .MuiButton-text {
   text-transform: capitalize;
   color: #4386bf;
 }
