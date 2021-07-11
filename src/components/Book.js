@@ -8,9 +8,10 @@ function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
   return (
     <div className="book-container">
-      <div>
-        <p>{category}</p>
-        <h2>{title}</h2>
+      <div className="book-details">
+        <p className="book-cat">{category}</p>
+        <h2 className="book-title">{title}</h2>
+        <p className="author">Suzzan Colins</p>
         <div className="btns">
           <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
             <Button>Comment</Button>
