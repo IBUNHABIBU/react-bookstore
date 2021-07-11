@@ -19,8 +19,8 @@
   </p>
 </p>
 
-![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/home.PNG)
-![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/calculator.PNG)
+![screenshot](https://github.com/IBUNHABIBU/react-bookstore/blob/milestone5-styling/public/books.PNG)
+![screenshot](https://github.com/IBUNHABIBU/react-bookstore/blob/milestone5-styling/public/books.PNG)
 ## Table of Contents
 
 * [About the Project](#about-the-project)
