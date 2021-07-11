@@ -19,6 +19,8 @@
   </p>
 </p>
 
+![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/home.PNG)
+![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/calculator.PNG)
 ## Table of Contents
 
 * [About the Project](#about-the-project)
