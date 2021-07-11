@@ -1,12 +1,12 @@
 :root {
-  --primary-color: rgb(128, 128, 128);
+  --primary-color:rgb(128, 128, 128);
   --primay-height: 100px;
   --primary-width: 700px;
-  --black-two:  #121212;
-  --warm-grey: #888888;
-  --pale-grey: #e8e8e8;
-  --azure: #0290ff;
-  --white: #ffff; 
+  --black-two:#121212;
+  --warm-grey:#888;
+  --pale-grey:#e8e8e8;
+  --azure:#0290ff;
+  --white:#ffff; 
 }
 
 body {
@@ -49,7 +49,7 @@ body {
   border-radius: 50%;
   width: 4.25rem;
   height: 4.25rem;
-  background-color: #379cf6;
+  background-color:#379cf6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@ body {
   width: 3.55rem;
   height: 3.55rem;
   border-radius: 50%;
-  background-color: white;
+  background-color:white;
 }
 
 .percentage {
@@ -135,7 +135,7 @@ body {
 .form-container {
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
