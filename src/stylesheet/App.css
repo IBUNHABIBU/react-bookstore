@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
 :root {
   --primary-color: rgb(128, 128, 128);
   --primay-height: 100px;
@@ -26,7 +28,7 @@ body {
   width: 71rem;
   height: 10rem;
   border: 1px solid #e8e8e8;
-  margin-left: 6.25rem; 
+  margin-left: 6.25rem;
   margin-top: 1rem;
   background-color: #fff;
   display: flex;
