@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import Select from '@material-ui/core/Select';
@@ -10,7 +11,7 @@ import myStyle from '../stylesheet/style';
 
 function BookForm() {
   const classes = myStyle();
-  const cat = bookCategories.map((item) => <MenuItem value={item} key={item}>{item}</MenuItem>);
+  const cat = bookCategories.map((item) => <option value={item} key={item}>{item}</option>);
   const [book, setBook] = useState('');
   const dispatch = useDispatch();
   const handleChange = (e) => {
@@ -51,24 +52,13 @@ function BookForm() {
           id="title"
         />
         <br />
-
+        <label htmlFor="Category">
+          Category
+          <select name="cat" id="cat" value={book.category} onChange={handleChange}>
+            {cat}
+          </select>
+        </label>
         <br />
-        <div className={classes.cat}>
-          <label htmlFor="Category" className={classes.label}>
-            <FormControl variant="outlined" className={classes.formControl}>
-              <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
-              <Select
-                labelId="demo-simple-select-outlined-label"
-                name="cat"
-                id="cat"
-                onChange={handleChange}
-                label="Age"
-              >
-                {cat}
-              </Select>
-            </FormControl>
-          </label>
-        </div>
         <Button type="submit" variant="contained" color="primary">Add Book</Button>
       </form>
     </div>
