@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import { Divider } from '@material-ui/core';
 
 function Book({ book, handleRemoveBook }) {
   const { title, category } = book;
@@ -28,6 +29,7 @@ function Book({ book, handleRemoveBook }) {
           <p className="completed">Completed</p>
         </div>
       </div>
+      <Divider orientation="vertical" />
       <div className="chapter">
         <p className="current">current chapter</p>
         <p className="c-number">Chapter 17</p>

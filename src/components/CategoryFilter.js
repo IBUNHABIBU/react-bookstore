@@ -20,7 +20,7 @@ const CategoryFilter = ({ handleFilter }) => {
           <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
           <Select
             labelId="demo-simple-select-outlined-label"
-            id="demo-simple-select-outlined"
+            id="category"
             onChange={handleFilter}
             label="Age"
           >
