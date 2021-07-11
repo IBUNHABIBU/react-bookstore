@@ -3,6 +3,8 @@
   --primay-height: 100px;
   --primary-width: 700px;
   --black-two:  #121212;
+  --warm-grey: #888888;
+  --pale-grey: #e8e8e8;
 }
 
 
@@ -91,5 +93,28 @@ body {
 .form-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:center;
+  align-items: center;
+}
+
+.form-title {
+  width: 10.875rem;
+  height: 1.5rem;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: var(--warm-grey);
+  margin-left: 5rem;
+}
+
+.form-main {
+  width: 75rem;
+  height: 10.625rem;
+  background-color: var(--white);
+  margin-top: 3rem;
+  border-top: 2px solid var(--pale-grey);
 }

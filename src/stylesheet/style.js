@@ -30,7 +30,7 @@ const myStyle = makeStyles((theme) => ({
     // marginTop: theme.spacing(2),
   },
   textInput: {
-    width: '70%',
+    width: '41.5rem',
   },
   account: {
     flexGrow: 1,
@@ -43,8 +43,20 @@ const myStyle = makeStyles((theme) => ({
     backgroundColor: '#ffffff',
   },
   bookBtn: {
-    width: '100%',
-    height: '80%',
+    width: '11.5rem',
+    height: '3.293rem',
+    backgroundColor: '#0290ff',
+  },
+  catInput: {
+    // width: '1.813rem',
+    // margin: 0,
+  },
+  label2: {
+
+  },
+  formControl2: {
+    margin: theme.spacing(1),
+    minWidth: 120,
   },
 }));
 

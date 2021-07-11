@@ -18,13 +18,13 @@ import { addBook } from '../actions';
 
 function BookForm() {
   const classes = myStyle();
-  const cat = bookCategories.map((item) => <option value={item} key={item}>{item}</option>);
+  const cat = bookCategories.map((item) => <MenuItem value={item} key={item}>{item}</MenuItem>);
   const [book, setBook] = useState('');
   const dispatch = useDispatch();
   const handleChange = (e) => {
     console.log('handle', e.target.id);
     if (e.target.name === 'cat') {
-      console.log(e.target.value);
+      console.log(e.target.name);
       setBook({ ...book, category: e.target.value });
     } else if (e.target.id === 'title') {
       setBook({ ...book, title: e.target.value, category: 'Action' });
@@ -39,7 +39,8 @@ function BookForm() {
     setBook({ title: '', category: 'Action' });
   };
   return (
-    <div>
+    <div className="form-main">
+      <h2 className="form-title">ADD BOOK</h2>
       <form action="add-book" onSubmit={handleSubmit}>
         <div className="form-container">
           <TextField
@@ -58,17 +59,26 @@ function BookForm() {
             id="title"
           />
           <br />
-          <label htmlFor="Category">
-            Category
-            <select name="cat" id="cat" value={book.category} onChange={handleChange}>
-              {cat}
-            </select>
-          </label>
+          <div className={classes.catInput}>
+            <label htmlFor="Category" className={classes.label2}>
+              <FormControl variant="outlined" className={classes.formControl2}>
+                <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
+                <Select
+                  labelId="demo-simple-select-outlined-label"
+                  id="cat"
+                  name="cat"
+                  onChange={handleChange}
+                  label="Category"
+                >
+                  {cat}
+                </Select>
+              </FormControl>
+            </label>
+          </div>
           <br />
           <Button type="submit" variant="contained" color="primary" className={classes.bookBtn}>Add Book</Button>
         </div>
       </form>
-      
     </div>
   );
 }
