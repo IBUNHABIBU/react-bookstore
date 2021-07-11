@@ -1,12 +1,12 @@
 :root {
-  --primary-color:rgb(128, 128, 128);
+  --primary-color: rgb(128, 128, 128);
   --primay-height: 100px;
   --primary-width: 700px;
-  --black-two:#121212;
-  --warm-grey:#888;
-  --pale-grey:#e8e8e8;
-  --azure:#0290ff;
-  --white:#ffff; 
+  --black-two: #121212;
+  --warm-grey: #888;
+  --pale-grey: #e8e8e8;
+  --azure: #0290ff;
+  --white: #ffff;
 }
 
 body {
@@ -17,12 +17,12 @@ body {
   text-align: center;
 }
 
-.book-container {
+/* .book-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
-}
+ 
+} */
 
 #demo-simple-select-outlined-label {
   font-size: 0.8rem;
@@ -32,12 +32,14 @@ body {
   width: 71rem;
   height: 10rem;
   border: 1px solid #e8e8e8;
-  margin-left: 6.25rem;
-  background-color: #ffffff;
+  margin-left: 6.25rem; 
+  margin-top: 1rem;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   padding-left: 1rem;
   padding-right: 3rem;
+  padding-top: 2rem;
 }
 
 .MuiButtonGroup-root .MuiButton-text {
@@ -49,7 +51,7 @@ body {
   border-radius: 50%;
   width: 4.25rem;
   height: 4.25rem;
-  background-color:#379cf6;
+  background-color: #379cf6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +65,7 @@ body {
   width: 3.55rem;
   height: 3.55rem;
   border-radius: 50%;
-  background-color:white;
+  background-color: white;
 }
 
 .percentage {
@@ -98,7 +100,7 @@ body {
 .content {
   width: 2rem;
   height: 3rem;
-  background-color:white;
+  background-color: white;
   position: absolute;
 }
 
