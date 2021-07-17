@@ -116,7 +116,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-image: linear-gradient(to bottom, var(--pale-grey), var(--dodger-blue));
+  background-image: linear-gradient( var(--primary-color), var(--pale-grey), var(--dodger-blue));
 }
 
 .inner-bar {
