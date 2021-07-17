@@ -19,6 +19,7 @@ const CategoryFilter = ({ handleFilter }) => {
         <FormControl variant="outlined" className={classes.formControl}>
           <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
           <Select
+            className={classes.catInput}
             labelId="demo-simple-select-outlined-label"
             id="category"
             onChange={handleFilter}
