@@ -19,7 +19,7 @@ const Nav = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="transparent">
+      <AppBar position="static" color="transparent" className={classes.toolbar}>
         <Toolbar>
           <Typography variant="h2" className={classes.logo}>
             BookStore CMS
