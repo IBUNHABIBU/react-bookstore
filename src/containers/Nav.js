@@ -21,7 +21,6 @@ const Nav = () => {
     <div className={classes.root}>
       <AppBar position="static" color="transparent">
         <Toolbar>
-          {/* <div> */}
           <Typography variant="h2" className={classes.logo}>
             BookStore CMS
           </Typography>
@@ -29,9 +28,7 @@ const Nav = () => {
             BOOKS
           </Typography>
           <CategoryFilter handleFilter={handleCategoryChange} className={classes.cat} />
-          {/* </div> */}
           <AccountCircleIcon fontSize="large" className={classes.account} />
-          {/* <AccountCircle /> */}
         </Toolbar>
       </AppBar>
     </div>
