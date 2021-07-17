@@ -55,6 +55,11 @@ const myStyle = makeStyles(() => ({
     color: 'var(--azure)',
     margin: '0 0 0 31.5rem',
     // padding: '0.875rem',
+    position: 'relative',
+    right: '-100px',
+    // paddingLeft: '41rem',
+    border: 'solid 1px #e8e8e8',
+    borderRadius: '50%',
   },
 }));
 
