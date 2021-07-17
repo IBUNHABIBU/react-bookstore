@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
+// import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import { Divider } from '@material-ui/core';
 
@@ -13,11 +13,9 @@ function Book({ book, handleRemoveBook }) {
         <h2 className="book-title">{title}</h2>
         <p className="author">Suzzan Colins</p>
         <div className="btns">
-          <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
-            <Button>Comment</Button>
-            <Button onClick={() => handleRemoveBook(book)}>Remove</Button>
-            <Button>Edit</Button>
-          </ButtonGroup>
+          <Button>Comment</Button>
+          <Button onClick={() => handleRemoveBook(book)}>Remove</Button>
+          <Button>Edit</Button>
         </div>
       </div>
       <div className="status-bar">

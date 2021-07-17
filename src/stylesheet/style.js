@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const myStyle = makeStyles(() => ({
+
   toolbar: {
     width: '73.3rem',
     height: '5.938rem',
