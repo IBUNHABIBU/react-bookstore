@@ -111,13 +111,25 @@ body {
   width: 5.625rem;
   height: 5.62rem;
   padding: 0.62rem 0.625rem 0.75rem 0.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, var(--pale-grey), var(--dodger-blue));
 }
 
 .inner-bar {
-  width: 4.25rem;
-  height: 4.25rem;
-  border: 5px solid var(--dodger-blue);
-  border-radius: 50px;
+  width: 5.85rem;
+  height: 5.85rem;
+  border-radius: 50%;
+  background-color: white;
+  
+  /* border-style: solid;
+  border-width: 5px;
+  border-image-source: linear-gradient(to bottom, yellow, var(--dodger-blue));
+  border-image-slice: 10%; */
+  
 }
 
 .status-bar {
