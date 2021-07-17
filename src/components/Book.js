@@ -14,7 +14,9 @@ function Book({ book, handleRemoveBook }) {
         <p className="author">Suzzan Colins</p>
         <div className="btns">
           <Button>Comment</Button>
+          <span className="line-2" />
           <Button onClick={() => handleRemoveBook(book)}>Remove</Button>
+          <span className="line-2" />
           <Button>Edit</Button>
         </div>
       </div>
