@@ -53,6 +53,7 @@ function BookForm() {
               <FormControl variant="outlined" className={classes.formControl2}>
                 <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
                 <Select
+                  className={classes.catInputForm}
                   labelId="demo-simple-select-outlined-label"
                   id="cat"
                   name="cat"

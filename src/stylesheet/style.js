@@ -37,10 +37,6 @@ const myStyle = makeStyles(() => ({
   },
   catInput: {
     width: '9.5rem',
-    // height: '5.938rem',
-    // margin: '0 0 2.375rem',
-    // padding: '1.438rem 6.188rem 1.688rem 6.25rem',
-    // marginTop: '1rem',
   },
   formControl: {
     marginTop: '1rem',
@@ -57,6 +53,24 @@ const myStyle = makeStyles(() => ({
     border: 'solid 1px #e8e8e8',
     borderRadius: '50%',
   },
+  textInput: {
+    width: '41.5rem',
+    height: '2.813rem',
+    margin: '1.188rem 2.125rem 0 0',
+    padding: '0.813rem 35.688rem 0.813rem 1.063rem',
+    borderRadius: '4px',
+    border: 'solid 1px #e8e8e8',
+    backgroundColor: 'var(--white)',
+  },
+  .catInputForm: {
+    width: 87.5rem;
+    height: 68.563rem;
+    margin: 0 2.5rem 4.063rem 0;
+    padding: 0 0 49.625rem;
+    border-radius: 4px;
+    box-shadow: 0 0 60px 0 var(--black-5);
+    background-color: #fafafa;
+  }
 }));
 
 export default myStyle;
