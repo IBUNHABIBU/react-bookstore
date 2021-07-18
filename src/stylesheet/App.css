@@ -203,23 +203,11 @@ body {
   color: var(--black-two);
 }
 
-.progress-btn {
-  /* width: 8.938rem;
-  height: 1.125rem;
-  font-family: RobotoSlab;
-  font-size: 0.813rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: var(--white); */
+.book-container .chapter .progress-btn {
 
   width: 11.5rem;
   height: 2.063rem;
   margin: 0.75rem 0 0.563rem 3.688rem;
-  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
   background-color: var(--azure);
 }
