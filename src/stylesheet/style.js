@@ -53,23 +53,17 @@ const myStyle = makeStyles(() => ({
     border: 'solid 1px #e8e8e8',
     borderRadius: '50%',
   },
-  textInput: {
-    width: '41.5rem',
-    height: '2.813rem',
-    margin: '1.188rem 2.125rem 0 0',
-    padding: '0.813rem 35.688rem 0.813rem 1.063rem',
-    borderRadius: '4px',
-    border: 'solid 1px #e8e8e8',
-    backgroundColor: 'var(--white)',
-  },
   catInputForm: {
     width: '17.813rem',
-    height: '2.813rem',
+    height: '3.813rem',
     margin: '1.188rem 2.125rem 0',
     padding: '0.375rem 0.938rem 0.563rem 1rem',
     borderRadius: '4px',
     border: 'solid 1px #e8e8e8',
     backgroundColor: 'var(--white)',
+  },
+  catInputFor: {
+    // backgroundColor: 'yellow',
   },
   bookBtn: {
     width: '11.5rem',

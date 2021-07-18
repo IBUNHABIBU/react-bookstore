@@ -48,12 +48,12 @@ function BookForm() {
             id="title"
           />
           <br />
-          <div className={classes.catInput}>
+          <div className={classes.catInputFor}>
             <label htmlFor="Category" className={classes.label2}>
               <FormControl variant="outlined" className={classes.formControl2}>
                 <InputLabel id="demo-simple-select-outlined-label">CATEGORIES</InputLabel>
                 <Select
-                  className={classes.catInputForm}
+                  className={classes.catInput}
                   labelId="demo-simple-select-outlined-label"
                   id="cat"
                   name="cat"
