@@ -118,8 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background-image: linear-gradient( var(--medium-blue), var(--medium-blue), var(--pale-grey), var(--pale-grey));
+  background-image: linear-gradient(var(--medium-blue), var(--medium-blue), var(--pale-grey), var(--pale-grey));
 }
 
 .inner-bar {
