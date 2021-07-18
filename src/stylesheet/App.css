@@ -88,7 +88,6 @@ body {
 .btns .MuiButton-text {
   width: 4.563rem;
   height: 1.188rem;
-  /* margin: 0.188rem 0.938rem 0.125rem 0; */
   font-family: RobotoSlab;
   font-size: 0.875rem;
   font-weight: 300;
@@ -103,7 +102,6 @@ body {
 .line-2 {
   width: 0.125rem;
   height: 1.5rem;
-  /* margin: 0.75rem 1.063rem 0 0.938rem; */
   border: solid 1px #e8e8e8;
 }
 
