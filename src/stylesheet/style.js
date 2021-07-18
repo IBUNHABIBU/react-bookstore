@@ -56,6 +56,11 @@ const myStyle = makeStyles(() => ({
   textInput: {
     width: '65%',
   },
+  bookBtn: {
+    width: '11.5rem',
+    height: '3.293rem',
+    backgroundColor: '#0290ff',
+  },
 }));
 
 export default myStyle;

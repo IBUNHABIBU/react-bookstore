@@ -220,7 +220,7 @@ body {
 .form-title {
   width: 10.875rem;
   height: 1.5rem;
-  margin: 1.813rem 32.75rem 1.188rem 0;
+  margin: 1.813rem 32.75rem 1.188rem 1.2rem;
   font-family: Montserrat;
   font-size: 1.25rem;
   font-weight: bold;
@@ -236,4 +236,8 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.form-main .MuiButton-text {
+  background-color: var(--azure);
 }

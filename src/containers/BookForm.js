@@ -66,7 +66,7 @@ function BookForm() {
             </label>
           </div>
           <br />
-          <Button type="submit" variant="contained" color="primary" className={classes.catInput}>Add Book</Button>
+          <Button type="submit" variant="contained" color="primary" className={classes.bookBtn}>Add Book</Button>
         </div>
       </form>
     </div>
