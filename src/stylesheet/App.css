@@ -124,12 +124,6 @@ body {
   height: 5.85rem;
   border-radius: 50%;
   background-color: white;
-  
-  /* border-style: solid;
-  border-width: 5px;
-  border-image-source: linear-gradient(to bottom, yellow, var(--dodger-blue));
-  border-image-slice: 10%; */
-  
 }
 
 .status-bar {
@@ -204,7 +198,6 @@ body {
 }
 
 .book-container .chapter .progress-btn {
-
   width: 11.5rem;
   height: 2.063rem;
   margin: 0.75rem 0 0.563rem 3.688rem;
