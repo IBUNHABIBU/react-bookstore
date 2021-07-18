@@ -1,7 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const myStyle = makeStyles(() => ({
-
   toolbar: {
     width: '73.3rem',
     height: '5.938rem',
@@ -37,6 +36,7 @@ const myStyle = makeStyles(() => ({
   },
   catInput: {
     width: '9.5rem',
+    height: '3.41rem',
   },
   formControl: {
     marginTop: '1rem',
@@ -53,25 +53,8 @@ const myStyle = makeStyles(() => ({
     border: 'solid 1px #e8e8e8',
     borderRadius: '50%',
   },
-  catInputForm: {
-    width: '17.813rem',
-    height: '3.813rem',
-    margin: '1.188rem 2.125rem 0',
-    padding: '0.375rem 0.938rem 0.563rem 1rem',
-    borderRadius: '4px',
-    border: 'solid 1px #e8e8e8',
-    backgroundColor: 'var(--white)',
-  },
-  catInputFor: {
-    // backgroundColor: 'yellow',
-  },
-  bookBtn: {
-    width: '11.5rem',
-    height: '2.813rem',
-    margin: '1.188rem 0 0 2.125rem',
-    padding: '0.801rem 1.188rem 0.886rem 1.375rem',
-    borderRadius: '3px',
-    backgroundColor: 'var(--azure)',
+  textInput: {
+    width: '65%',
   },
 }));
 
