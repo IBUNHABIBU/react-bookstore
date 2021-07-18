@@ -62,15 +62,23 @@ const myStyle = makeStyles(() => ({
     border: 'solid 1px #e8e8e8',
     backgroundColor: 'var(--white)',
   },
-  .catInputForm: {
-    width: 87.5rem;
-    height: 68.563rem;
-    margin: 0 2.5rem 4.063rem 0;
-    padding: 0 0 49.625rem;
-    border-radius: 4px;
-    box-shadow: 0 0 60px 0 var(--black-5);
-    background-color: #fafafa;
-  }
+  catInputForm: {
+    width: '17.813rem',
+    height: '2.813rem',
+    margin: '1.188rem 2.125rem 0',
+    padding: '0.375rem 0.938rem 0.563rem 1rem',
+    borderRadius: '4px',
+    border: 'solid 1px #e8e8e8',
+    backgroundColor: 'var(--white)',
+  },
+  bookBtn: {
+    width: '11.5rem',
+    height: '2.813rem',
+    margin: '1.188rem 0 0 2.125rem',
+    padding: '0.801rem 1.188rem 0.886rem 1.375rem',
+    borderRadius: '3px',
+    backgroundColor: 'var(--azure)',
+  },
 }));
 
 export default myStyle;
