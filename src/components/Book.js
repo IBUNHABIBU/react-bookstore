@@ -30,7 +30,7 @@ function Book({ book, handleRemoveBook }) {
           <p className="completed">Completed</p>
         </div>
       </div>
-      <Divider orientation="vertical" />
+      <span className="horizontal-line"/>
       <div className="chapter">
         <p className="current">current chapter</p>
         <p className="chapter-number">Chapter 17</p>
