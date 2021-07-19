@@ -36,6 +36,7 @@
   font-style: normal;
   line-height: normal;
 }
+
 .book-cat,
 .author,
 .btns .MuiButton-text,
@@ -69,6 +70,7 @@
 .book-cat {
   font-family: 'Montserrat', sans-serif;
 }
+
 .book-title,
 .author,
 .current, 
@@ -247,7 +249,7 @@ body {
   align-items: center;
 }
 
-.book-container .chapter .progress-btn ,
+.book-container .chapter .progress-btn,
 .form-main .MuiButton-text {
   background-color: var(--azure);
 }
