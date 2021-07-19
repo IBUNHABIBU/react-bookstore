@@ -14,8 +14,36 @@
   --medium-blue: #307bbe;
 }
 
-.book-cat, .title, .percentage, .completed, .current {
+.book-cat, .title, .percentage,
+.completed, .current, .chapter-number {
   color: var(--black-two);
+}
+
+.book-title, .author,
+.btns .MuiButton-text,
+.percentage, .completed, 
+.current, .chapter-number, 
+.form-title, .book-cat {
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.book-container,  .complete-bar,
+.status-bar, .form-container {
+  display: flex;
+}
+
+.book-title, .current, .chapter-number {
+  width: 100%;
+}
+
+.status-bar, .chapter, .book-details {
+  width: 24rem;
+}
+
+.percentage, .completed, .form-title, .book-cat {
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -36,7 +64,6 @@ body {
 }
 
 .book-container {
-  display: flex;
   justify-content: space-between;
   width: 73.3rem;
   height: 10.625rem;
@@ -51,26 +78,17 @@ body {
   height: 1.125rem;
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
-  
 }
 
 .book-title {
-  width: 100%;
   height: 1.813rem;
   margin: 0.188rem 20.188rem 0 0;
   font-family: 'RobotoSlab', sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.2px;
   
 }
@@ -82,9 +100,6 @@ body {
   font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
 }
@@ -95,9 +110,6 @@ body {
   font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
   text-transform: capitalize;
@@ -111,7 +123,6 @@ body {
 
 .book-details {
   margin-left: 2rem;
-  width: 25rem;
 }
 
 .complete-bar {
@@ -119,7 +130,6 @@ body {
   height: 5.62rem;
   padding: 0.62rem 0.625rem 0.75rem 0.75rem;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(var(--medium-blue), var(--medium-blue), var(--pale-grey), var(--pale-grey));
@@ -132,21 +142,12 @@ body {
   background-color: white;
 }
 
-.status-bar {
-  display: flex;
-  width: 25rem;
-}
-
 .percentage {
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
 }
 
@@ -155,12 +156,8 @@ body {
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
 }
 
@@ -173,16 +170,12 @@ body {
 }
 
 .current {
-  width: 100%;
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
   font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   text-transform: uppercase;
 }
@@ -193,12 +186,7 @@ body {
   font-family: 'RobotoSlab', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.4px;
-  color: var(--black-two);
-  width: 100%;
 }
 
 .book-container .chapter .progress-btn {
@@ -206,7 +194,6 @@ body {
   height: 2.063rem;
   margin: 0.75rem 0 0.563rem 3.688rem;
   border-radius: 3px;
-  background-color: var(--azure);
 }
 
 .book-details .btns {
@@ -217,30 +204,24 @@ body {
 .chapter {
   position: relative;
   right: 3.8rem;
-  width: 25rem;
 }
 
 .form-title {
   width: 10.875rem;
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 1.2rem;
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.18px;
   color: var(--warm-grey);
 }
 
 .form-container {
-  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.form-main .MuiButton-text {
+.book-container .chapter .progress-btn , .form-main .MuiButton-text {
   background-color: var(--azure);
 }
