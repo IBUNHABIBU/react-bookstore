@@ -21,12 +21,15 @@
 
 .book-title, .author,
 .btns .MuiButton-text,
-.percentage, .completed, 
-.current, .chapter-number, 
+.percentage, .completed,
+.current, .chapter-number,
 .form-title, .book-cat {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
+}
+.book-cat, .author, .btns .MuiButton-text, .percentage, .completed, .current {
+  letter-spacing: normal;
 }
 
 .book-container,  .complete-bar,
@@ -44,6 +47,10 @@
 
 .percentage, .completed, .form-title, .book-cat {
   font-family: 'Montserrat', sans-serif;
+}
+.book-title, .author, .current, 
+.chapter-number, .btns .MuiButton-text {
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .book-title, .form-title, .book-cat {
@@ -83,7 +90,6 @@ body {
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
   font-size: 0.875rem;
-  letter-spacing: normal;
 }
 
 .book-title {
@@ -99,7 +105,6 @@ body {
   margin: 0.25rem 0 0;
   font-size: 0.875rem;
   font-weight: 300;
-  letter-spacing: normal;
   color: #4386bf;
 }
 
@@ -108,7 +113,6 @@ body {
   height: 1.188rem;
   font-size: 0.875rem;
   font-weight: 300;
-  letter-spacing: normal;
   color: #4386bf;
   text-transform: capitalize;
 }
@@ -140,13 +144,15 @@ body {
   background-color: white;
 }
 
+.percentage, .completed {
+  font-weight: normal;
+}
+
 .percentage {
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
   font-size: 2rem;
-  font-weight: normal;
-  letter-spacing: normal;
 }
 
 .completed {
@@ -155,8 +161,6 @@ body {
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
   font-size: 0.875rem;
-  font-weight: normal;
-  letter-spacing: normal;
 }
 
 .horizontal-line {
@@ -173,7 +177,6 @@ body {
   opacity: 0.5;
   font-size: 0.813rem;
   font-weight: 300;
-  letter-spacing: normal;
   text-transform: uppercase;
 }
 
