@@ -14,46 +14,72 @@
   --medium-blue: #307bbe;
 }
 
-.book-cat, .title, .percentage,
-.completed, .current, .chapter-number {
+.book-cat,
+.title,
+.percentage,
+.completed,
+.current,
+.chapter-number {
   color: var(--black-two);
 }
 
-.book-title, .author,
+.book-title,
+.author,
 .btns .MuiButton-text,
-.percentage, .completed,
-.current, .chapter-number,
-.form-title, .book-cat {
+.percentage,
+.completed,
+.current,
+.chapter-number,
+.form-title,
+.book-cat {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
 }
-.book-cat, .author, .btns .MuiButton-text, .percentage, .completed, .current {
+.book-cat,
+.author,
+.btns .MuiButton-text,
+.percentage, .completed,
+.current {
   letter-spacing: normal;
 }
 
-.book-container,  .complete-bar,
-.status-bar, .form-container {
+.book-container,
+.complete-bar,
+.status-bar,
+.form-container {
   display: flex;
 }
 
-.book-title, .current, .chapter-number {
+.book-title,
+.current,
+.chapter-number {
   width: 100%;
 }
 
-.status-bar, .chapter, .book-details {
+.status-bar,
+.chapter,
+.book-details {
   width: 24rem;
 }
 
-.percentage, .completed, .form-title, .book-cat {
+.percentage,
+.completed,
+.form-title,
+.book-cat {
   font-family: 'Montserrat', sans-serif;
 }
-.book-title, .author, .current, 
-.chapter-number, .btns .MuiButton-text {
+.book-title,
+.author,
+.current, 
+.chapter-number,
+.btns .MuiButton-text {
   font-family: 'RobotoSlab', sans-serif;
 }
 
-.book-title, .form-title, .book-cat {
+.book-title,
+.form-title,
+.book-cat {
   font-weight: bold;
 }
 
