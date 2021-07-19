@@ -40,7 +40,8 @@
 .book-cat,
 .author,
 .btns .MuiButton-text,
-.percentage, .completed,
+.percentage,
+.completed,
 .current {
   letter-spacing: normal;
 }
