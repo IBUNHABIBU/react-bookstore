@@ -170,7 +170,8 @@ body {
   background-color: white;
 }
 
-.percentage, .completed {
+.percentage,
+.completed {
   font-weight: normal;
 }
 
@@ -246,6 +247,7 @@ body {
   align-items: center;
 }
 
-.book-container .chapter .progress-btn , .form-main .MuiButton-text {
+.book-container .chapter .progress-btn ,
+.form-main .MuiButton-text {
   background-color: var(--azure);
 }
