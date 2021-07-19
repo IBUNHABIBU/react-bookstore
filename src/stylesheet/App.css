@@ -89,7 +89,6 @@ body {
 .book-title {
   height: 1.813rem;
   margin: 0.188rem 20.188rem 0 0;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 1.375rem;
   letter-spacing: -0.2px;
 }
@@ -98,7 +97,6 @@ body {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0.25rem 0 0;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   letter-spacing: normal;
@@ -108,7 +106,6 @@ body {
 .btns .MuiButton-text {
   width: 4.563rem;
   height: 1.188rem;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   letter-spacing: normal;
@@ -174,7 +171,6 @@ body {
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   letter-spacing: normal;
@@ -184,7 +180,6 @@ body {
 .chapter-number {
   height: 1.313rem;
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
-  font-family: 'RobotoSlab', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: -0.4px;
