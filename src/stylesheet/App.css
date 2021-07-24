@@ -86,6 +86,11 @@
   font-weight: bold;
 }
 
+.percentage,
+.completed {
+  font-weight: normal;
+}
+
 body {
   width: 73rem;
   height: 89.625rem;
@@ -171,11 +176,6 @@ body {
   height: 5.85rem;
   border-radius: 50%;
   background-color: white;
-}
-
-.percentage,
-.completed {
-  font-weight: normal;
 }
 
 .percentage {
