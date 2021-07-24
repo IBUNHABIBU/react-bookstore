@@ -57,6 +57,7 @@ function BookForm() {
                   labelId="demo-simple-select-outlined-label"
                   id="cat"
                   name="cat"
+                  value={book.category}
                   onChange={handleChange}
                   label="Category"
                 >
