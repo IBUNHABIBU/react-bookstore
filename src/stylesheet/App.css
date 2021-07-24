@@ -86,12 +86,17 @@
   font-weight: bold;
 }
 
-.book-cat, .completed, .current {
+.book-cat,
+.completed,
+.current {
   height: 1.125rem;
   opacity: 0.5;
 }
 
-.book-cat, .author, .btns .MuiButton-text, .completed {
+.book-cat,
+.author,
+.btns .MuiButton-text,
+.completed {
   font-size: 0.875rem;
 }
 
