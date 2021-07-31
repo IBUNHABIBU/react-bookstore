@@ -39,14 +39,10 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 ### Story
 
 ### Features
-
-#### Milestone 5
-- Styling 
-  - Styling the navbar
-  - Styling the form
-  - Styling the list of books
-  - Update Heroku
-    
+- It has nav bar
+- You may Add book by filling the form with title and category
+- Remove book
+- Filter book category
 <!-- BUILD WITH -->
 ## Built With
 
