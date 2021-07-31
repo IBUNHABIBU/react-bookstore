@@ -49,7 +49,6 @@ Magic-books Inc. is a fictional company based in Germany. They have requested yo
 This project was built using these technologies.
 * React
 
-
 ### Requirement
 
 - Node.js
