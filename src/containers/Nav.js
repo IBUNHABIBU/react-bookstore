@@ -22,9 +22,9 @@ const Nav = () => {
           <Typography variant="h2" className={classes.logo}>
             BookStore CMS
           </Typography>
-          <Typography edge="start" variant="h3" className={classes.title}>
+          {/* <Typography edge="start" variant="h3" className={classes.title}>
             BOOKS
-          </Typography>
+          </Typography> */}
           <CategoryFilter handleFilter={handleCategoryChange} className={classes.cat} />
           <AccountCircleIcon fontSize="large" className={classes.account} />
         </Toolbar>
