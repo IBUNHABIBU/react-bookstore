@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const myStyle = makeStyles(() => ({
   toolbar: {
-    width: '73.3rem',
+    width: '100%',
     height: '5.938rem',
     margin: '0 0 2.375rem',
     padding: '0.001rem 6.188rem 1.688rem 0.001rem',
