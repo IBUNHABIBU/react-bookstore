@@ -9,7 +9,7 @@ const myStyle = makeStyles(() => ({
     backgroundColor: 'var(--white)',
   },
   logo: {
-    width: '26rem',
+    width: '29rem',
     height: '2.313rem',
     margin: '0.375rem 2.938rem 0.125rem 6.25rem',
     fontFamily: 'Montserrat, Sans-serif',
