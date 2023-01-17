@@ -26,7 +26,7 @@ const myStyle = makeStyles(() => ({
     fontSize: '0.813rem',
     letterSpacing: '1.9px',
     color: 'var(--black-two)',
-    border: 'solid 1px red',
+    border: 'solid 1px blue',
     marginLeft: '2rem',
     marginRight: '8rem',
   },
