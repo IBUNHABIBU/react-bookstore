@@ -13,11 +13,10 @@ const myStyle = makeStyles(() => ({
     height: '2.313rem',
     margin: '0.375rem 2.938rem 0.125rem 6.25rem',
     fontFamily: 'Montserrat, Sans-serif',
-    fontSize: '0.675rem',
+    fontSize: '0.475rem',
     fontWeight: 'bold',
     letterSpacing: 'normal',
     color: 'var(--azure)',
-    border: 'solid 1px #0290ff',
   },
   title: {
     width: '3.688rem',
