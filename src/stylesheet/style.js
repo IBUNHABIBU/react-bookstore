@@ -27,6 +27,7 @@ const myStyle = makeStyles(() => ({
     letterSpacing: '1.9px',
     color: 'var(--black-two)',
     border: 'solid 1px red',
+    marginLeft: '2rem',
   },
   catInput: {
     width: '9.5rem',
