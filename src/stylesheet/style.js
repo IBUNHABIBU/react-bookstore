@@ -16,7 +16,7 @@ const myStyle = makeStyles(() => ({
     fontSize: '0.875rem',
     fontWeight: 'bold',
     letterSpacing: 'normal',
-    color: 'var(--azure)',
+    // color: 'var(--azure)',
   },
   title: {
     width: '3.688rem',
