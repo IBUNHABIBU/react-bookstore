@@ -9,14 +9,14 @@ const myStyle = makeStyles(() => ({
     backgroundColor: 'var(--white)',
   },
   logo: {
-    width: '16rem',
+    width: '26rem',
     height: '2.313rem',
     margin: '0.375rem 2.938rem 0.125rem 6.25rem',
     fontFamily: 'Montserrat, Sans-serif',
     fontSize: '0.875rem',
     fontWeight: 'bold',
     letterSpacing: 'normal',
-    // color: 'var(--azure)',
+    color: 'var(--azure)',
   },
   title: {
     width: '3.688rem',
