@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const myStyle = makeStyles(() => ({
-  toolbar: {
+  appbar: {
     width: '100%',
     height: '5.938rem',
     margin: '0 0 2.375rem',
@@ -26,6 +26,7 @@ const myStyle = makeStyles(() => ({
     fontSize: '0.813rem',
     letterSpacing: '1.9px',
     color: 'var(--black-two)',
+    border: 'solid 1px #e8e8e8',
   },
   catInput: {
     width: '9.5rem',
